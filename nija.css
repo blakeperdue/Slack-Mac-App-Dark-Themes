@@ -3413,3 +3413,19 @@ body > .section.main { background: #25273C; box-shadow: none; }
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover {
     background:rgba(94, 160, 236, 0.35)  !important;
 }
+
+
+.p-channel_sidebar__channel, .p-channel_sidebar__link, .p-channel_sidebar__channel:link, .p-channel_sidebar__link:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:visited {
+  background:#7275AE !important;
+  font-size:14px !important;
+  line-height:20px !important;
+  height:20px !important;
+}
+.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover {
+  background:#7275AE !important;
+  color:#fff !important;
+}
+
+p-channel_sidebar__static_list > div {
+  height:auto !important;
+}
