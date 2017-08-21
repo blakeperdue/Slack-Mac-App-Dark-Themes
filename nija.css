@@ -3416,7 +3416,6 @@ body > .section.main { background: #25273C; box-shadow: none; }
 
 
 .p-channel_sidebar__channel, .p-channel_sidebar__link, .p-channel_sidebar__channel:link, .p-channel_sidebar__link:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:visited {
-  background:#7275AE !important;
   font-size:14px !important;
   line-height:20px !important;
   height:20px !important;
@@ -3426,6 +3425,7 @@ body > .section.main { background: #25273C; box-shadow: none; }
   color:#fff !important;
 }
 
-p-channel_sidebar__static_list > div {
-  height:auto !important;
+.p-channel_sidebar__static_list > div {
+  height:20px !important;
 }
+.p-channel_sidebar__static_list > div:first-child { display:none !important; }
