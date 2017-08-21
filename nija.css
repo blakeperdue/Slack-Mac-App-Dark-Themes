@@ -3429,3 +3429,11 @@ body > .section.main { background: #25273C; box-shadow: none; }
   height:20px !important;
 }
 .p-channel_sidebar__static_list > div:first-child { display:none !important; }
+
+.p-channel_sidebar__name.p-channel_sidebar__name--away {
+  color:rgba(155,170,188, 0.4);
+}
+
+.p-channel_sidebar__channel--im .c-presence--away {
+  opacity: 0.4;
+}
