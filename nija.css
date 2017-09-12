@@ -3437,3 +3437,25 @@ body > .section.main { background: #25273C; box-shadow: none; }
 .p-channel_sidebar__channel--im .c-presence--away {
   opacity: 0.4;
 }
+
+
+.feature_name_tagging_client .comment .mention, .feature_name_tagging_client .ql-editor .mention, .feature_name_tagging_client ts-message .mention {
+ background: #323653;
+}
+
+.c-member__display-name, .c-team__display-name, .c-usergroup__handle {
+  color: #7275AE;
+}
+
+.channel_page_member_row:hover {
+  background-color: #1B1D2D;
+  border-color: #1B1D2D;
+  color:#AEB0DA;
+}
+
+.feature_name_tagging_client #edit_topic_inner:before {
+  background: #25263D;
+  border: 1px solid rgba(0,0,0,0);
+  box-shadow:none !important;
+}
+
