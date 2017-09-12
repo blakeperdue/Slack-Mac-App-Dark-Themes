@@ -3459,3 +3459,8 @@ body > .section.main { background: #25273C; box-shadow: none; }
   box-shadow:none !important;
 }
 
+.feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention,
+.feature_name_tagging_client .app_preview_link_slug:hover, .feature_name_tagging_client .internal_member_link:hover, .feature_name_tagging_client .internal_user_group_link:hover, .feature_name_tagging_client ts-mention:hover {
+    background: #444278;
+    color: #AEB0DA;
+}
