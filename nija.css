@@ -3485,5 +3485,7 @@ a:link, a:visited {
 .app_preview_link_slug.mention, .internal_member_link.mention, .internal_user_group_link.mention, ts-mention.mention {
   background: #F97DB2 !important;
   color:#fff !important;
-  
 }
+.p-download_item__actions { background: #25273C !important; }
+.ts-message .mention { border: 0 !important; }
+
