@@ -3489,3 +3489,10 @@ a:link, a:visited {
 .p-download_item__actions { background: #25273C !important; }
 .ts-message .mention { border: 0 !important; }
 
+.app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention {
+    background: none !important;
+    border:solid 1px #7275AE !important;
+}
+.p-channel_sidebar__channel, .p-channel_sidebar__link, .p-channel_sidebar__channel:link, .p-channel_sidebar__link:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover {
+  color: rgba(155,170,188, 0.8) !important
+}
