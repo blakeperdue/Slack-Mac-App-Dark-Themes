@@ -3464,3 +3464,26 @@ body > .section.main { background: #25273C; box-shadow: none; }
     background: #444278;
     color: #AEB0DA;
 }
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
+    box-shadow: none !important;
+}
+#col_messages, .channel_header, #client_body:not(.onboarding):before {
+    box-shadow: none !important;
+}
+#details_tab .feature_sli_channel_insights .channel_created_section .creator_link, #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
+  color:#AEB0DA !important;
+}
+.file_container.file_has_thumb .preview_actions {
+  background-image:none !important;
+}
+.c-channel_insights__channel .channel_link { color: #7275AE !important }
+.p-downloads_list__shift_hint { background: none !important; }
+.p-download_item__container .p-download_item__name_row { color: #AEB0DA !important }
+a:link, a:visited {
+    color: #D1DCEA !important;
+}
+.app_preview_link_slug.mention, .internal_member_link.mention, .internal_user_group_link.mention, ts-mention.mention {
+  background: #F97DB2 !important;
+  color:#fff !important;
+  
+}
