@@ -3496,3 +3496,6 @@ a:link, a:visited {
 .p-channel_sidebar__channel, .p-channel_sidebar__link, .p-channel_sidebar__channel:link, .p-channel_sidebar__link:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover {
   color: rgba(155,170,188, 0.8) !important
 }
+#edit_topic_inner:before {
+  bcakground: none !important;
+}
