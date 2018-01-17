@@ -3499,3 +3499,33 @@ a:link, a:visited {
 #edit_topic_inner:before {
   bcakground: none !important;
 }
+
+.c-message__body{
+  color:#AEB0DA !important;
+}
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+    background-color: #353857 !important;
+}
+.c-timestamp__label {
+  color: #B4C0D0 !important;
+}
+.c-message_list__day_divider__label { 
+  color: #fff !important; 
+  background: #0B0D1C !important;
+}
+<style>…</style>
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
+    border-bottom: 1px solid #0B0D1C !important;
+    background: #0B0D1C !important;
+}
+.channel_header_info_item:not(:empty)~.channel_header_info_item:not(:first-child):before {
+  color: rgba(113,114,116,.5) !important; 
+}
+#edit_topic_inner:before {
+    background: #0B0D1C !important;
+    border: 1px solid #0B0D1C !important;
+    box-shadow: none !important;
+}
+
+  
+  
