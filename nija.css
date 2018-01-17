@@ -3527,5 +3527,11 @@ a:link, a:visited {
     box-shadow: none !important;
 }
 
-  
+.c-message_list__day_divider__label__pill {
+  background:#0B0D1C !important;
+}
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar)::before, .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before {
+    border-bottom: 1px solid rgb(11, 13, 0) !important;
+    background: rgb(11, 13, 0) !important;
+}
   
